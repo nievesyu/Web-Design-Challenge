@@ -1,0 +1,45 @@
+
+/* navbar part */
+
+.bg-custom{
+    background-color: white;
+}
+
+
+.navbar-custom{
+color:white;
+}
+
+.navbar-brand{
+    font-size: 35px;
+    background-color: rgb(14, 152, 177);
+    color:white;
+    font-weight:bold;
+    }
+
+#navheadercolor{
+    color:white;
+}
+    
+@media (max-width: 991px) {
+
+.bg-custom{
+    background-color: rgb(4, 158, 158)
+} 
+
+.navbar-brand{
+    font-size: 30px;
+    background-color:rgb(4, 158, 158);
+    }
+
+    
+
+
+
+
+
+    
+    #images {
+        padding-top: 15px;
+        text-align: center;
+    }
