@@ -1,1 +1,47 @@
-comparison.html
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Web Visualization Dashboard</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- navbar section -->
+<nav class="navbar navbar-expand-lg navbar-light bg-custom">
+    <a class="navbar-brand" id="navheadercolor" href="index.html">Latitude</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto">
+
+    <!-- nav-plots-dropdown -->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Plots
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="visualization/maxtemp.html">Max Temperature</a>
+            <a class="dropdown-item" href="visualization/humidity.html">Humidity</a>
+            <a class="dropdown-item" href="visualization/cloudiness.html">Cloudiness</a>
+            <a class="dropdown-item" href="visualization/windspeed.html">Wind Speed</a>
+          </div>
+        </li>
+    <!-- nav-comparision -->
+        <li class="nav-item">
+          <a class="nav-link comparison" href="comparison.html" tabindex="-1" aria-disabled="true">Comparison</a>
+        </li>
+
+     <!-- nav-Data -->
+        <li class="nav-item">
+            <a class="nav-link data" href="data.html" tabindex="-1" aria-disabled="true">Data</a>
+          </li>
+      </ul>
+    
+    </div>
+
+  </nav>
