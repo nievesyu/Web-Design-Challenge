@@ -1,45 +1,32 @@
+/* start */
+html {
+    position: relative;
+    min-height: 100%;
+  }
+
+  body {
+     background-color: white;
+  }
+
 
 /* navbar part */
 
-.bg-custom{
+.navbar-bg-custom{
     background-color: white;
 }
 
-
-.navbar-custom{
-color:white;
-}
-
-.navbar-brand{
+#mainheader {
+   
     font-size: 35px;
-    background-color: rgb(14, 152, 177);
+    background-color: rgb(24, 137, 156);
     color:white;
     font-weight:bold;
-    }
 
-#navheadercolor{
-    color:white;
-}
-    
+  }
+
+ 
 @media (max-width: 991px) {
 
-.bg-custom{
-    background-color: rgb(4, 158, 158)
+.navbar-bg-custom{
+    background-color: rgb(24, 137, 156)
 } 
-
-.navbar-brand{
-    font-size: 30px;
-    background-color:rgb(4, 158, 158);
-    }
-
-    
-
-
-
-
-
-    
-    #images {
-        padding-top: 15px;
-        text-align: center;
-    }
